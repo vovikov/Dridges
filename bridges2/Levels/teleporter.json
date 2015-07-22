@@ -1,0 +1,50 @@
+{
+    "level": {
+        "name": "Teleporters",
+        "labels": [
+            {
+                "x": "22",
+                "y": "27",
+                "w": "16",
+                "h": "14",
+                "text": "Teleporters can jump you anywhere in the game, but each jump costs a coin.\n\nVisit the houses to get more coins."
+            }
+        ],
+		"player": {
+			"x": "4",
+			"y": "16"
+		},
+        "rivers": [
+            {
+                "x": "8",
+                "y": "b-t",
+                "orient": "v"
+            },
+            {
+                "x": "18",
+                "y": "b-t",
+                "orient": "v"
+            }
+        ],
+        "bridges": [
+            {
+                "x": "18",
+                "y": "8",
+                "orient": "h"
+            }
+        ],
+        "houses": [
+			{
+	            "x": "4",
+	            "y": "24",
+	            "coins": "1"
+	        }
+		],
+        "teleporters": [
+			{
+				"x": "4",
+				"y": "10"
+			}
+        ]
+    }
+}

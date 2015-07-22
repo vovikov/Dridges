@@ -1,0 +1,89 @@
+
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.8.0r4
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+body {    
+	background: rgb(250, 250, 240);
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Avenir, "ff-basic-gothic-web-pro", Verdana,Arial,Sans-serif;
+	font-weight: 100;
+}
+
+h1 {
+    font-family: Avenir, "ff-basic-gothic-web-pro", Verdana,Arial,Sans-serif;
+    font-size: 48px;
+	line-height: 48px;
+    text-align: left;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	position: relative;
+	padding-right: 200px;
+}
+
+h2 {
+    font-family: Avenir, "ff-basic-gothic-web-pro", Verdana,Arial,Sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#main {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 4em;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#buyit {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.weak {
+    color: gray;
+    font-size: 0.85em;
+}
+
+p.imageBlock {
+	text-align: center;
+}
+
+p.imageBlock img {
+	max-width:95%;
+}
+
+div.videoBlock {
+	background: transparent url('iphone_frame.png') no-repeat scroll center center;
+	width: 431px;
+	height: 316px;
+	padding-left: 43px;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #29aae7;
+}
+
+#buylink {
+	background: transparent url('icon.png') no-repeat scroll left center;
+	padding: 0px;
+	width: 450px;
+	margin: 20% auto 40%;
+	text-indent: 80px;
+	line-height: 80px;
+}

@@ -1,0 +1,68 @@
+{
+    "level": {
+        "name": "Start anywhere",
+		"hint": {
+			"x": "5",
+			"y": "5"
+		},
+        "labels": [
+        	{
+            	"x": "22",
+				"y": "27",
+				"w": "16",
+				"h": "10",
+				"text": "Sometimes you choose where to start.  Tap any island."
+			},
+        	{
+            	"x": "22",
+				"y": "12",
+				"w": "16",
+				"h": "10",
+				"text": "The hint button (?) shows you where to start if you need help."
+			}
+        ],
+        "rivers": [
+            {
+                "x": "14",
+                "y": "b-t",
+                "orient": "v"
+            },
+            {
+                "x": "l-r",
+                "y": "14",
+                "orient": "h"
+            },
+            {
+                "x": "14",
+                "y": "14",
+                "orient": "h",
+				"border": "none"
+            }
+        ],
+        "bridges": [
+            {
+                "x": "14",
+                "y": "22",
+                "orient": "h"
+            },
+            {
+                "x": "14",
+                "y": "6",
+                "orient": "h"
+            },
+            {
+                "x": "8",
+                "y": "14",
+                "orient": "v"
+            },
+            {
+                "x": "20",
+                "y": "14",
+                "orient": "v"
+            }
+        ],
+        "houses": [
+        	
+        ]
+    }
+}

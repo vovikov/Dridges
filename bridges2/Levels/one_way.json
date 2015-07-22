@@ -1,0 +1,65 @@
+{
+    "level": {
+        "name": "One-way bridges",
+		"hint": {
+			"x": "5",
+			"y": "5"
+		},
+        "labels": [
+        	{
+            	"x": "22",
+				"y": "27",
+				"w": "16",
+				"h": "10",
+				"text": "Some bridges only go one way."
+			}
+        ],
+        "rivers": [
+            {
+                "x": "14",
+                "y": "b-t",
+                "orient": "v"
+            },
+            {
+                "x": "l-r",
+                "y": "14",
+                "orient": "h"
+            },
+            {
+                "x": "14",
+                "y": "14",
+                "orient": "h",
+				"border": "none"
+            }
+        ],
+        "bridges": [
+            {
+                "x": "14",
+                "y": "22",
+                "orient": "h",
+				"dir": "right"
+            },
+            {
+                "x": "14",
+                "y": "6",
+                "orient": "h",
+				"dir": "left"
+            },
+            {
+                "x": "8",
+                "y": "14",
+                "orient": "v",
+				"dir": "up"
+            },
+            {
+                "x": "20",
+                "y": "14",
+                "orient": "v",
+				"dir": "down"
+            }
+        ],
+        "houses": [
+        	
+        ]
+    }
+}
